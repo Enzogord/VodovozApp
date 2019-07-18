@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using QS.DomainModel.Entity;
 using VodovozWPF.Infrastructure.ViewModels;
-using VodovozWPF.Properties;
+using VodovozWPF.ViewModels.Toolbars;
 
 namespace VodovozWPF.ViewModels
 {
@@ -16,13 +16,15 @@ namespace VodovozWPF.ViewModels
         public MainWindowViewModel()
         {
             Tabs = new ObservableCollection<TabItemViewModel>();
-            Tabs.Add(new TabItemViewModel() { Header = "Заказы",        Image = Resources.orders        });
-            Tabs.Add(new TabItemViewModel() { Header = "Логистика",     Image = Resources.logistic      });
-            Tabs.Add(new TabItemViewModel() { Header = "Склад",         Image = Resources.stock         });
-            Tabs.Add(new TabItemViewModel() { Header = "Касса",         Image = Resources.cash          });
-            Tabs.Add(new TabItemViewModel() { Header = "Бухгалтерия",   Image = Resources.accounting    });
-            Tabs.Add(new TabItemViewModel() { Header = "Архив",         Image = Resources.archive       });
-            Tabs.Add(new TabItemViewModel() { Header = "Работа с кл.",  Image = Resources.crm           });
+            Tabs.Add(new TabItemViewModel() { Header = "Вкладка"});
+            Tabs.Add(new TabItemViewModel() { Header = "Вкладка2" });
+            Tabs.Add(new TabItemViewModel() { Header = "Вкладка3" });
+        }
+
+        private OrdersToolbarViewModel ordersToolbar;
+        public OrdersToolbarViewModel OrdersToolbar {
+            get => ordersToolbar;
+            set => SetField(ref ordersToolbar, value, () => OrdersToolbar);
         }
     }
 }
