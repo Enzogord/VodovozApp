@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QS.Validation", "..\QSProje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QS.Utilities", "..\QSProject\QS.Utilities\QS.Utilities.csproj", "{E2228A2B-4883-4DD8-8A05-23501F7B8A33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodovozViewModels", "..\Vodovoz\VodovozViewModels\VodovozViewModels.csproj", "{EF73674E-B8D5-461B-A072-AC73231C82B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E2228A2B-4883-4DD8-8A05-23501F7B8A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2228A2B-4883-4DD8-8A05-23501F7B8A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2228A2B-4883-4DD8-8A05-23501F7B8A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF73674E-B8D5-461B-A072-AC73231C82B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF73674E-B8D5-461B-A072-AC73231C82B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF73674E-B8D5-461B-A072-AC73231C82B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF73674E-B8D5-461B-A072-AC73231C82B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
