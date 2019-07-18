@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodovozWPF", "VodovozWPF\VodovozWPF.csproj", "{1ED5743B-8CA1-4409-B789-800395256541}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VodovozApp", "VodovozApp\VodovozApp.csproj", "{1ED5743B-8CA1-4409-B789-800395256541}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QS.Project", "..\QSProject\QS.Project\QS.Project.csproj", "{28A78143-42E3-40E7-86F5-DD7E1679BE86}"
 EndProject
