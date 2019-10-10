@@ -143,13 +143,13 @@
     <Resource Include="Resources\Icons\Toolbar\stock.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\QSProject\QS.Project\QS.Project.csproj">
-      <Project>{28A78143-42E3-40E7-86F5-DD7E1679BE86}</Project>
-      <Name>QS.Project</Name>
-    </ProjectReference>
+    <Resource Include="Resources\Icons\Global\close.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Icons\Global\close.png" />
+    <ProjectReference Include="..\..\QSProjects\QS.Project\QS.Project.csproj">
+      <Project>{28a78143-42e3-40e7-86f5-dd7e1679be86}</Project>
+      <Name>QS.Project</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
